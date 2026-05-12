@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AutoFormalizer</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 16px;
+      width: 420px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 26px;
+    }
+
+    p {
+      color: #b5b5b5;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .meta {
+      margin-top: 15px;
+      font-size: 13px;
+      color: #888;
+    }
+
+    .btn {
+      display: block;
+      margin-top: 20px;
+      padding: 12px;
+      text-align: center;
+      background: #4a7cff;
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #3a66dd;
+    }
+
+    code {
+      background: #2a2a2a;
+      padding: 3px 6px;
+      border-radius: 6px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>AutoFormalizer</h1>
+
+    <p>
+      Automatically capitalizes messages and adds punctuation to improve readability in chat.
+    </p>
+
+    <div class="meta">
+      <div><strong>Author:</strong> Kai</div>
+      <div><strong>ID:</strong> 1502645455446609951</div>
+    </div>
+
+    <p style="margin-top: 15px;">
+      This plugin formats outgoing messages in real time:
+    </p>
+
+    <ul style="color:#b5b5b5; font-size:13px;">
+      <li>Capitalizes sentences automatically</li>
+      <li>Fixes basic grammar structure</li>
+      <li>Adds punctuation if missing</li>
+      <li>Preserves slang like "lol", "idk", "brb"</li>
+    </ul>
+
+    <p style="margin-top: 15px;">
+      Install via your client plugin loader using:
+    </p>
+
+    <code>plugins/AutoFormalizer</code>
+
+    <a class="btn" href="./manifest.json" download>
+      Download Manifest
+    </a>
+  </div>
+</body>
+</html>
